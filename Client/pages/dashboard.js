@@ -7,6 +7,7 @@ import { loadStripe } from "@stripe/stripe-js";
 const stripePromise = loadStripe(
   "pk_test_51K42yJDd9umCXJBo8xCqGvKorUgQYSxGd6fQnlMUWby0GeyKMotCJXwZ9QPiBQxsMFRB2oweBdq5sbFaO3A71v1300GzTl14bc"
 );
+console.log("test")
 
 const Dashboard = () => {
   return (
