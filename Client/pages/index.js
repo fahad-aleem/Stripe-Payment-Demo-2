@@ -19,6 +19,7 @@ export default function Home() {
   const onOpen = () => setIsOpen(true);
   const onClose = () => setIsOpen(false);
 
+console.log("test")
   return (
     <Elements stripe={stripePromise}>
       <div>
