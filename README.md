@@ -98,3 +98,7 @@ https://stripe.com/docs/payments/payment-intents
 - To see the supplier dashboard go to /supplier route, all the orders that belongs to that supplier listed there. 
 - Supplier can accept, reject and marked the order as deliver from the change status button. When he accept the order the order will go into active state. 
 - When the supplier marked as delivered, the payment will automatically transferred to the supplier connect account i.e payment flows from our platform to supplier platform. 
+
+## Test Integration With Stripe Dummy Card Number:
+Enter the following card number at the time of purchasing an item.
+4242 4242 4242 4242
