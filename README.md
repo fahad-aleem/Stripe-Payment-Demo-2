@@ -61,7 +61,7 @@ Start the Client.
 
 ### Setup Server
 
-Go to client directory
+Go to server directory
 
 ```bash
   cd Server
