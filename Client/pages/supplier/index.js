@@ -2,6 +2,8 @@ import Navbar from "../../components/common/navbar";
 import ProductTable from "../../components/supplier/supplierTable";
 import { Container, Heading, Box } from "@chakra-ui/react";
 
+console.log("test")
+
 const Supplier = () => {
   return (
     <div className="supplier">
