@@ -9,12 +9,20 @@ const Supplier = () => {
         routeLinks={[
           {
             label: "Home",
+            href: "/",
+          },{
+            label: "User Dashboard",
+            href: "/dashboard",
+          },
+
+           {
+            label: "Supplier Dashboard",
             href: "/supplier",
           },
         ]}
       />
       <Container maxWidth="container.xl" my={12}>
-        <Heading>My Orders</Heading>
+        <Heading>Supplier Orders</Heading>
         <Box border="1px solid #efefef" my={4}>
           <ProductTable />
         </Box>

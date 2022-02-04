@@ -19,8 +19,12 @@ const Dashboard = () => {
             href: "/",
           },
           {
-            label: "Dashboard",
+            label: "User Dashboard",
             href: "/dashboard",
+          },
+           {
+            label: "Supplier Dashboard",
+            href: "/supplier",
           },
         ]}
       />

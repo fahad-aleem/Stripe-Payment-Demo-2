@@ -34,9 +34,12 @@ export default function Home() {
               href: "/",
             },
             {
-              label: "Dashboard",
+              label: "User Dashboard",
               href: "/dashboard",
-            },
+            },    {
+            label: "Supplier Dashboard",
+            href: "/supplier",
+          },
           ]}
         />
         <Container maxWidth="container.xl">
